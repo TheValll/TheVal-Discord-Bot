@@ -1,7 +1,9 @@
+# Importing necessary libraries
 import os
 from datetime import datetime
 from dotenv import load_dotenv
 
+# Utils class with two methods get_date and get_token
 class Utils:
 
     def get_date(formatted):

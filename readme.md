@@ -42,8 +42,13 @@ To use TheVal Bot, follow these steps:
 - Description: A tribute to Colproz.
 - Usage: `/colproz`
 
+### GitHub 🌐
+
+- Description: Get the GitHub repository link.
+- Usage: `/github`
+
 ## Usage 🚀
 
 Once the bot is running and added to your Discord server, you can use the commands mentioned above to access various links and information provided by TheVal Bot.
 
-Enjoy using TheVal Bot in your Discord server! If you have any questions or feedback, feel free to contact me. 📧
+Enjoy using TheVal Bot in your Discord server! If you have any questions
