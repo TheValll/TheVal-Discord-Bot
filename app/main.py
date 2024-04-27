@@ -24,7 +24,7 @@ async def on_ready():
 # Help command
 @bot.tree.command(name="help", description="Get help")
 async def help(interaction: discord.Interaction):
-    await interaction.response.send_message("Les commandes :\n /youtube,\n /twitch,\n /osu,\n /colproz, \n /github")
+    await interaction.response.send_message("Les commandes :\n /youtube\n /twitch\n /osu\n /colproz\n /github")
 
 # Github command
 @bot.tree.command(name="github", description="Get the github repositories")
