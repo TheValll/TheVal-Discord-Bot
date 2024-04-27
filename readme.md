@@ -12,7 +12,8 @@ To use TheVal Bot, follow these steps:
 2. Install the required dependencies using `pip install -r requirements.txt`.
 3. Obtain a Discord bot token from the Discord Developer Portal.
 4. Create a `.env` file in the root directory of the project and add your Discord bot token as `DISCORD_TOKEN=<your-token-here>`.
-5. Run the bot using `python main.py`.
+5. Run the command `docker build --pull --rm -f "dockerfile" -t bot:latest "."`.
+6. Run the command `docker compose -f "docker-compose.yml" up -d --build `.
 
 ## Commands 💬
 
