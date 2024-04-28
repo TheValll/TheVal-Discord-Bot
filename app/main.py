@@ -11,7 +11,7 @@ bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 async def on_ready():
     today = Utils.get_date(False)
     response = f'Bot connected at {today}'
-    channel_id = 1233441407008641075
+    channel_id = Utils.get_channel_log_id()
     channel = bot.get_channel(channel_id)
     await channel.send(response)
     print('Bot ready')

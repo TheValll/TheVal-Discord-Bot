@@ -16,3 +16,7 @@ class Utils:
     def get_token():
         load_dotenv()
         return os.getenv("DISCORD_TOKEN")
+
+    def get_channel_log_id():
+        load_dotenv()
+        return int(os.getenv("CHANNEL_LOG_ID"))
